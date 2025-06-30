@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+*.egg-info/
+.eggs/
+
+# Environment/config files
+.env
+.env.*
+*.env
+
+# VSCode and IDEs
+.vscode/
+.idea/
+*.swp
+
+# Logs and output
+*.log
+*.sqlite3
+*.db
+*.pid
+
+# Byte-compiled/misc
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Pytest cache
+.pytest_cache/
+
+# mypy, coverage, etc.
+.mypy_cache/
+.coverage
+htmlcov/
+.tox/
+.cache/
+nosetests.xml
+coverage.xml
+
+# Docker
+**/__docker_cache__/
+*.tar
+*.img
+
+# Streamlit cache
+.streamlit/
+
+# Node/npm (if any JS in frontend)
+node_modules/
+*.lock
+
+# Build artifacts
+dist/
+build/
+*.spec
+
